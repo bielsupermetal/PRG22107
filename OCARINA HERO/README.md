@@ -15,13 +15,9 @@ O objetivo do jogo é pressionar a nota indicada na tablatura em cima da barra q
 para obter uma alta pontuação.
 
 ### PONTUAÇÃO
-O jogador pontua conforme o número de acertos das notas tocadas, somando 1 ponto por nota. Um multiplicador é acrescentado à pontuação, e aumentado (até um máximo de 8)
-eventualmente, após uma determinada sequência de notas tocadas sem erros. Caso o jogador erre a nota tocada, o multiplicador retorna ao estado inicial da pontuação.
+O jogador pontua conforme o número de acertos das notas tocadas, somando 1 ponto por nota. Um multiplicador é acrescentado à pontuação, e aumentado eventualmente (até um máximo de 8), após uma determinada sequência de notas tocadas sem erros. Caso o jogador erre a nota tocada, o multiplicador retorna ao estado inicial da pontuação.
 
-Estado inicial: pontuação = (nota_correta * 1) + pontuação;
-
-Sequência de 5 acertos: pontuação = (nota_correta * 2) + pontuação;
-
-Sequência de 10 acertos: pontuação = (nota_correta * 4) + pontuação;
-
-Sequência de 20 acertos: pontuação = (nota_correta * 8) + pontuação;
+- Estado inicial: pontuação = (nota_correta * 1) + pontuação;
+- Sequência de 5 acertos: pontuação = (nota_correta * 2) + pontuação;
+- Sequência de 10 acertos: pontuação = (nota_correta * 4) + pontuação;
+- Sequência de 20 acertos: pontuação = (nota_correta * 8) + pontuação;
