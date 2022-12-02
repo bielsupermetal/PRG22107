@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>sound_ocarina/OOT_Notes_Ocarina_Down_F_short.wav</file>
+        <file>sound_ocarina/OOT_Notes_Ocarina_Left_B_short.wav</file>
+        <file>sound_ocarina/OOT_Notes_Ocarina_Right_A_short.wav</file>
+        <file>sound_ocarina/OOT_Notes_Ocarina_Up_D2_short.wav</file>
+        <file>sound_ocarina/OOT_Song_Error.wav</file>
+    </qresource>
+</RCC>
