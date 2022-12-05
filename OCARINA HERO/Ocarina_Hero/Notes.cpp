@@ -10,6 +10,7 @@
 #include <stdlib.h>
 
 extern OcarinaHero * game;
+extern Player * keynote_up;
 
 Notes::Notes(): QObject(), QGraphicsRectItem(){
     // drew the notes

@@ -10,11 +10,11 @@ OcarinaHero::OcarinaHero(QWidget *parent)
     : QWidget(parent){
 
     QGraphicsScene * scene = new QGraphicsScene();
-    QGraphicsPixmapItem *background = scene->addPixmap(QPixmap("C:/Users/gabri/Desktop/Ocarina Hero/Ocarina_Hero/ocarina_tab.png"));
+    QGraphicsPixmapItem *background = scene->addPixmap(QPixmap(":/img/ocarina_tab.png"));
     scene->addItem(background);
 
     QBrush Ocarina_focus;
-    Ocarina_focus.setTextureImage(QImage("C:/Users/gabri/Desktop/Ocarina Hero/Ocarina_Hero/icons_notes/ocarina_item.png"));
+    Ocarina_focus.setTextureImage(QImage(":/img/icons_notes/ocarina_item.png"));
 
     //create key notes
     keynotes = new Player();
@@ -31,7 +31,7 @@ OcarinaHero::OcarinaHero(QWidget *parent)
     view->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
-    //create the score/health
+    //create the score//streak/health
     score = new Score();
     scene->addItem(score);
 

@@ -7,13 +7,13 @@ Health::Health(QGraphicsItem *parent): QGraphicsRectItem(parent){
     heart = 3;
 
 
-    full_health.setTextureImage(QImage("C:/Users/gabri/Desktop/Ocarina Hero/Ocarina_Hero/health/full_health.png"));
+    full_health.setTextureImage(QImage(":/img/health/full_health.png"));
     setRect(0,0,87,25);
     setBrush(full_health);
 
-    one_dmg.setTextureImage(QImage("C:/Users/gabri/Desktop/Ocarina Hero/Ocarina_Hero/health/one_dmg.png"));
-    two_dmg.setTextureImage(QImage("C:/Users/gabri/Desktop/Ocarina Hero/Ocarina_Hero/health/two_dmg.png"));
-    game_over.setTextureImage(QImage("C:/Users/gabri/Desktop/Ocarina Hero/Ocarina_Hero/health/game_over.png"));
+    one_dmg.setTextureImage(QImage(":/img/health/one_dmg.png"));
+    two_dmg.setTextureImage(QImage(":/img/health/two_dmg.png"));
+    game_over.setTextureImage(QImage(":/img/health/game_over.png"));
 
 }
 
